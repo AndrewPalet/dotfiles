@@ -1,0 +1,22 @@
+# Theme
+theme = Snazzy
+
+# Large scrollback (10 million lines)
+scrollback-limit = 10000000
+
+# Copy text to clipboard on selection (like iTerm2)
+copy-on-select = clipboard
+
+# Use Display P3 colorspace for brighter, more vibrant colors (matches iTerm2)
+window-colorspace = display-p3
+
+# Bolder text rendering
+font-thicken = true
+
+# Bold text uses bright color variants (matches iTerm2 behavior)
+bold-is-bright = true
+
+# Block cursor (matches iTerm2)
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
