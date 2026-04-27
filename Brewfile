@@ -8,6 +8,7 @@ brew "rbenv"
 brew "sops"
 brew "stow"
 brew "uv"
+brew "volta"
 brew "yarn"
 brew "zplug"
 

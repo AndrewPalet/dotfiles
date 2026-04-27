@@ -46,14 +46,20 @@ done
 # Restore repo versions in case --adopt pulled in divergent files
 git -C "$DOTFILES_DIR" checkout .
 
-# 6. Install cmux-ultimate plugin
+# 6. Set up Volta (adds PATH to .zshenv)
+if command -v volta &>/dev/null; then
+  echo "==> Setting up Volta..."
+  volta setup 2>/dev/null || true
+fi
+
+# 7. Install cmux-ultimate plugin
 if command -v claude &>/dev/null; then
   echo "==> Installing cmux-ultimate plugin..."
   claude plugin marketplace add AndrewPalet/cmux-ultimate 2>/dev/null || true
   claude plugin install cmux-ultimate 2>/dev/null || true
 fi
 
-# 7. Reminders
+# 8. Reminders
 echo ""
 echo "==> Done! Post-setup reminders:"
 echo "  1. Add LINEAR_API_KEY to Keychain:"
