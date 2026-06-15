@@ -1,3 +1,5 @@
 [user]
 	name = Andrew Palet
 	email = andrew@cooklist.com
+[includeIf "gitdir:/Users/andrew/Repos/Personal/"]
+	path = ~/.gitconfig-personal

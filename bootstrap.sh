@@ -22,15 +22,11 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 fi
 
-# 4. Configure git email (per-machine, not stored in repo)
-if [ ! -f "$HOME/.gitconfig-work" ]; then
-  read -p "Work git email (for ~/Repos/): " WORK_EMAIL
-  printf "[user]\n\temail = %s\n" "$WORK_EMAIL" > "$HOME/.gitconfig-work"
-fi
+# 4. Configure personal git email (overrides work email for ~/Repos/Personal/)
 if [ ! -f "$HOME/.gitconfig-personal" ]; then
-  read -p "Personal git email (for ~/personal/, leave blank to skip): " PERSONAL_EMAIL
+  read -p "Personal git email (for ~/Repos/Personal/, leave blank to skip): " PERSONAL_EMAIL
   if [ -n "$PERSONAL_EMAIL" ]; then
-    printf "[user]\n\temail = %s\n" "$PERSONAL_EMAIL" > "$HOME/.gitconfig-personal"
+    printf "[user]\n\tname = Andrew Palet\n\temail = %s\n" "$PERSONAL_EMAIL" > "$HOME/.gitconfig-personal"
   fi
 fi
 
