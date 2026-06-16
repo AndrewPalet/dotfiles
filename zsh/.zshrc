@@ -6,9 +6,6 @@ source $ZSH/oh-my-zsh.sh
 # Ruby manager
 eval "$(rbenv init - zsh)"
 
-# API keys (macOS Keychain)
-export LINEAR_API_KEY=$(security find-generic-password -a "$USER" -s "LINEAR_API_KEY" -w)
-
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
