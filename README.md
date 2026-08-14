@@ -18,6 +18,7 @@ cd ~/Repos/personal/dotfiles
 | cmux | `.config/cmux/settings.json` | Notification sound, external URL whitelist, sidebar prefs |
 | zsh | `.zshrc` | Oh My Zsh (robbyrussell), rbenv, Android SDK paths |
 | git | `.gitconfig` | Name and email |
+| agents | `.agents/VOICE.md` | Personal voice guide for drafting outward-facing messages |
 
 ## What's NOT Included (by design)
 

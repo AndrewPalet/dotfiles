@@ -33,7 +33,7 @@ fi
 # 5. Stow all config packages
 
 echo "==> Stowing dotfiles..."
-PACKAGES=(ghostty cmux zsh git)
+PACKAGES=(ghostty cmux zsh git agents)
 for pkg in "${PACKAGES[@]}"; do
   echo "  Stowing $pkg..."
   stow -d "$DOTFILES_DIR" -t "$HOME" --adopt "$pkg"
