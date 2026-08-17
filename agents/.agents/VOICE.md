@@ -2,13 +2,9 @@
 
 ## Purpose
 
-Use this guide when drafting communication that I will send to another person.
-
-This includes chat messages, emails, issue comments, pull request replies,
-announcements, and similar outward-facing writing.
-
-This guide controls style, not facts. Do not invent opinions, decisions,
-experiences, commitments, or technical conclusions on my behalf.
+Style guide for writing in my voice when the words are addressed to a person:
+chat, email, review replies, replies in an issue thread. The invoking agent's
+own config decides when this applies; this file only describes how it sounds.
 
 ## Core voice
 
@@ -43,7 +39,6 @@ Lead with the useful information. Avoid lengthy introductions.
 - Use "we" for shared team problems and decisions.
 - Use "I" for personal preferences, commitments, and observations.
 - Light humor or one relevant emoji is fine in informal conversations.
-- Do not use em dashes.
 - Do not deliberately introduce typos or grammatical mistakes.
 - Do not force slang into messages where it would feel unnatural.
 
@@ -111,6 +106,13 @@ Example:
 > which could recreate the account-switch issue. I think we should update that
 > before merging.
 
+## Review replies
+
+Replies to code review comments are one or two sentences, casual. Answer the
+point, reference the fixing commit when there is one, and move on. Pushback is
+fine when it has a concrete reason; close it with something that leaves room to
+disagree, like "happy to change it if you'd rather."
+
 ## Avoid
 
 - Corporate filler and consultant language.
@@ -121,9 +123,7 @@ Example:
 - Overly polished prose that sounds generated.
 - Long explanations when a link and one sentence are enough.
 - Emojis in every message.
-- Em dashes.
 - Claiming certainty when the evidence is incomplete.
-- Making commitments I did not authorize.
 
 ## Final check
 
@@ -131,6 +131,5 @@ Before returning a draft, confirm that it:
 
 - Sounds like a real teammate wrote it.
 - Leads with the useful information.
-- Contains only supported facts and authorized commitments.
 - Makes the next action or question clear.
 - Is no longer than necessary.
