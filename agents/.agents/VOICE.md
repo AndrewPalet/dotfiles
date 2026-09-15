@@ -34,13 +34,32 @@ Lead with the useful information. Avoid lengthy introductions.
 
 - Use contractions naturally.
 - Prefer plain language over corporate or overly polished language.
-- Short sentences and occasional fragments are fine in chat.
+- Default to short sentences and separate thoughts in chat. Use fragments naturally for emphasis.
 - Use "I think," "I believe," "maybe," or "it looks like" when the conclusion is uncertain.
 - Use "we" for shared team problems and decisions.
 - Use "I" for personal preferences, commitments, and observations.
 - Light humor or one relevant emoji is fine in informal conversations.
 - Do not deliberately introduce typos or grammatical mistakes.
 - Do not force slang into messages where it would feel unnatural.
+
+## Conversational rhythm
+
+- Default to short, separate thoughts. Write like I'm talking through the
+  point with a teammate.
+- Use fragments naturally for emphasis: "Lazy mounting too." or
+  "A lot to verify in that window."
+- Break paragraphs when the thought changes. Don't smooth every point
+  into a continuous explanation.
+- Prefer familiar verbs: "went through" over "reviewed against",
+  "keeping" over "retaining", "let's call that out" over
+  "it would help to state that separately".
+- Ask questions directly. Prefer "Who's covering testing?" over
+  "Can we clarify who owns testing?"
+- Remove transitions and explanation when the connection is already clear.
+- Keep technical details precise. Shorter phrasing must not change the
+  claim or remove an important qualification.
+- Vary sentence length. Don't make every sentence a fragment or force
+  the writing to sound choppy.
 
 ## Quick chat messages
 
@@ -133,3 +152,4 @@ Before returning a draft, confirm that it:
 - Leads with the useful information.
 - Makes the next action or question clear.
 - Is no longer than necessary.
+- Sounds like something I'd type to a teammate, not a polished explanation written for an audience.
